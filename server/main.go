@@ -9,11 +9,11 @@ import (
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/joho/godotenv"
-	"github.com/thirdweb-dev/go-sdk/thirdweb"
+	"github.com/web3sdkio/go-sdk/web3sdkio"
 )
 
 type LoginPayload struct {
-	Payload *thirdweb.WalletLoginPayload `json:"payload"`
+	Payload *web3sdkio.WalletLoginPayload `json:"payload"`
 }
 
 func main() {
@@ -37,7 +37,7 @@ func main() {
 			return errors.New("Admin private key not set")
 		}
 
-		sdk, err := thirdweb.NewThirdwebSDK("mumbai", &thirdweb.SDKOptions{
+		sdk, err := web3sdkio.NewWeb3sdkioSDK("mumbai", &web3sdkio.SDKOptions{
 			PrivateKey: privateKey,
 		})
 		if err != nil {
@@ -75,7 +75,7 @@ func main() {
 			return errors.New("Admin private key not set")
 		}
 
-		sdk, err := thirdweb.NewThirdwebSDK("mumbai", &thirdweb.SDKOptions{
+		sdk, err := web3sdkio.NewWeb3sdkioSDK("mumbai", &web3sdkio.SDKOptions{
 			PrivateKey: privateKey,
 		})
 		if err != nil {

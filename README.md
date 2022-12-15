@@ -1,6 +1,6 @@
 ## Getting Started
 
-This example demonstrates how to use thirdweb Auth with a fiber backend and react frontend.
+This example demonstrates how to use web3sdkio Auth with a fiber backend and react frontend.
 
 To run this project, you need will first need to install the dependencies for the client and server with the following commands:
 
@@ -43,14 +43,14 @@ Now, the demo should be ready to use - and we can navigate to [`http://localhost
 
 ## Learn More
 
-To learn more about thirdweb, take a look at the following resources:
+To learn more about web3sdkio, take a look at the following resources:
 
-- [thirdweb Auth Documentation](https://docs.thirdweb.com/auth) - learn about thirdweb Auth.
-- [thirdweb React Documentation](https://docs.thirdweb.com/react) - learn about our React SDK.
-- [thirdweb Portal](https://docs.thirdweb.com) - check our guides and development resources.
+- [web3sdkio Auth Documentation](https://docs.web3sdk.io/auth) - learn about web3sdkio Auth.
+- [web3sdkio React Documentation](https://docs.web3sdk.io/react) - learn about our React SDK.
+- [web3sdkio Portal](https://docs.web3sdk.io) - check our guides and development resources.
   
-You can check out [the thirdweb GitHub organization](https://github.com/thirdweb-dev) - your feedback and contributions are welcome!
+You can check out [the web3sdkio GitHub organization](https://github.com/web3sdkio) - your feedback and contributions are welcome!
 
 ## Join our Discord!
 
-For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
+For any questions, suggestions, join our discord at [https://discord.gg/n33UhsfUKB](https://discord.gg/n33UhsfUKB).

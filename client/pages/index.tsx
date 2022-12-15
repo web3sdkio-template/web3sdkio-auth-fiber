@@ -1,7 +1,7 @@
 import type { NextPage } from 'next';
 
 import useAuthenticate from '../hooks/useAuthenticate';
-import { useAddress, useDisconnect, useMetamask } from '@thirdweb-dev/react';
+import { useAddress, useDisconnect, useMetamask } from '@web3sdkio/react';
 import { useState } from "react";
 
 
