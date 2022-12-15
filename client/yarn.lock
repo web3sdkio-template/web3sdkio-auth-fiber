@@ -730,14 +730,14 @@
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.1.3.tgz#6801033be7ff87a6b7cadaf5b337c9f366a3c4b0"
   integrity sha512-WiBSI6JBIhC6LRIsB2Kwh8DsGTlbBU+mLRxJmAe3LjHTdkDpwIbEOZgoXBbZilk/vlfjK8i6nKRAvIRn1XaIMw==
 
-"@web3sdkio/contracts@^3.0.0":
+"@thirdweb-dev/contracts@^3.0.0":
   version "3.0.3"
-  resolved "https://registry.yarnpkg.com/@web3sdkio/contracts/-/contracts-3.0.3.tgz#ba83b7e28ab01a88358de479cf98cddbf835ff56"
+  resolved "https://registry.yarnpkg.com/@thirdweb-dev/contracts/-/contracts-3.0.3.tgz#ba83b7e28ab01a88358de479cf98cddbf835ff56"
   integrity sha512-TQRrML5SwbTb0VA1nu7VLxqIXrqMfvaXOBFT//yA9Jdd7GNsG4zSQHlHpkU4KWG1r766poG/AuXwz8KQ1A9IBg==
 
-"@web3sdkio/react@^2":
+"@thirdweb-dev/react@^2":
   version "2.3.13"
-  resolved "https://registry.yarnpkg.com/@web3sdkio/react/-/react-2.3.13.tgz#20068b4c1a1082363fd3d336aeb78732b858eeeb"
+  resolved "https://registry.yarnpkg.com/@thirdweb-dev/react/-/react-2.3.13.tgz#20068b4c1a1082363fd3d336aeb78732b858eeeb"
   integrity sha512-BjU7qUnr0iV4awn3z0Q606j2f6N/cZSCIHbQVARhSOafczP0Uq4OiB8udOpuFDTsZHjbxQ5w+5Sq9NhZP3WUhA==
   dependencies:
     detect-browser "^5.3.0"
@@ -747,12 +747,12 @@
     tiny-invariant "^1.2.0"
     wagmi "^0.2.28"
 
-"@web3sdkio/sdk@^2.3.32":
+"@thirdweb-dev/sdk@^2.3.32":
   version "2.3.32"
-  resolved "https://registry.yarnpkg.com/@web3sdkio/sdk/-/sdk-2.3.32.tgz#47c22fe784078a6dc6f3dd4a854f859ee2aceb4b"
+  resolved "https://registry.yarnpkg.com/@thirdweb-dev/sdk/-/sdk-2.3.32.tgz#47c22fe784078a6dc6f3dd4a854f859ee2aceb4b"
   integrity sha512-z1Q78xg9PcPmXzblLAIGVYBGLiZ/eUU4//+DX4zXxMz0zDapbMTXPNsrb47KLhkQmjS/hq0vbn9RCw3KWtQZ4Q==
   dependencies:
-    "@web3sdkio/contracts" "^3.0.0"
+    "@thirdweb-dev/contracts" "^3.0.0"
     "@web-std/file" "^3.0.0"
     cbor "^8.1.0"
     cross-fetch "^3.1.5"

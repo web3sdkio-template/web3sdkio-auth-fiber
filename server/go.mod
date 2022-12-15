@@ -1,11 +1,11 @@
-module github.com/web3sdkio-example/login-with-wallet-next-fiber/server
+module github.com/thirdweb-example/login-with-wallet-next-fiber/server
 
 go 1.18
 
 require (
 	github.com/gofiber/fiber/v2 v2.35.0
 	github.com/joho/godotenv v1.4.0
-	github.com/web3sdkio/go-sdk v1.2.10
+	github.com/thirdweb-dev/go-sdk v1.2.10
 )
 
 require (
